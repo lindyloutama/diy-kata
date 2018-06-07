@@ -11,6 +11,6 @@ return 'Buzz'
 if (isDividableBy3) {
     return 'Fizz'
 }
-return number 
+return number
 }
 module.exports = fizzBuzz;
