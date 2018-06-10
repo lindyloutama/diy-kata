@@ -2,6 +2,6 @@ const { reachDestination } = require('../src');
 
 describe('reachDestination', () => {
   it('returns string with estimated time of arrival', () => {
-    Expect 
+    expect(reachDestination(4.5)).toBe('I should be there in 4.5 hours.')
   });
 });
